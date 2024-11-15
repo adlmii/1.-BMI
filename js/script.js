@@ -37,6 +37,7 @@ function calculateBMI() {
 
     // Menampilkan hasil (hasil container)
     document.querySelector('.result-container').style.display = 'block';
+    resultContainer.scrollIntoView({ behavior: 'smooth' });
 }
 
 document.querySelector('form').addEventListener('reset', function() {
