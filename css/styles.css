@@ -142,3 +142,27 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons button {
+        margin-bottom: 10px;
+    }
+
+    .result-container {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
